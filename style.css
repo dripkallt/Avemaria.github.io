@@ -44,3 +44,22 @@
            translateY(-50%);
            font-size: 16px;
            pointer-events: none;}
+#register span::before{
+              content:'';
+              position:absolute;
+              top: 40;
+              left:0;
+              width:0%;
+               height: 2px;
+              background: #2691d9 ;
+              transition: .45s
+              
+  }
+#register input:focus ~ label,
+#register input:valid ~ label{
+           top:-5px;
+            color:# 2691d9;}
+#register input:focus ~ span::before,
+#register input:valid ~ span::before{
+           width:100%;
+            }
