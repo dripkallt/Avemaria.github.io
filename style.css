@@ -1,0 +1,33 @@
+  
+ body{
+     font-family: Arial, Helvetica, sans-serif;
+     background-color:#eee;
+     margin-left: auto;
+     margin-left: auto;
+        width: 800;
+      
+      } 
+      #header{
+        font-family: Arial, Helvetica, sans-serif;
+          background-color:white;
+      }  
+      #footer{
+          font-family: Arial, Helvetica, sans-serif;
+          padding: 15px;
+       background-color:white;
+      }
+      #whatsapp{
+          background-color: #eee;
+      }
+      form#register|{ 
+        input#name (
+            width: 300px;
+            border: 1px Bolid #ddd;
+            border-radius:3px;
+            outline: 0;
+            padding: 7px;
+            background-color:#fff;
+            box-shadow:inset 1px 1px 5px b, 0, 0,
+           rgba(0,0,0,0.3)
+
+      }
