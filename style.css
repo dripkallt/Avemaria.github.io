@@ -1,5 +1,6 @@
   
  body{
+    font-size:26;
      font-family: Arial, Helvetica, sans-serif;
      background-color:#eee;
      margin-left: auto;
@@ -12,6 +13,7 @@
           background-color:white;
       }  
       #footer{
+             font-size:26;
           font-family: Arial, Helvetica, sans-serif;
           padding: 15px;
        background-color:white;
@@ -20,6 +22,7 @@
           background-color: #eee;
       }
       form#register|{ 
+         
         input#name (
             width: 300px;
             border: 1px Bolid #ddd;
