@@ -63,3 +63,25 @@
 #register input:valid ~ span::before{
            width:100%;
             }
+#put{
+    margin: -5px 0 20px 5px;
+    color: #a6a6a6;
+    cursor: pointer;}
+#put:hover{
+text-decoration: underline;
+  }
+input[type="submit"]{
+width:100%;
+height:50px;
+border: 1pm solid;
+background:#2691d9;
+border-radius: 25px;
+font-size: 20px;
+color: #e9f4fb;
+font-weight:700;
+cursor:pointer;
+outline: none;
+}
+input[type="submit"]:hover{
+border-color:#2691d9;
+transition:.65s;}
