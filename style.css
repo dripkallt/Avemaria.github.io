@@ -1,19 +1,23 @@
 body{
-  width :900px;
+  font-size: 25px;
+  width : auto;
+  max-width: 900px;
   margin-left:auto;
   margin-right:auto;
-  background-color:white;
+  background-image:linear-gradient(to top right, cyan,aquamarine);
     
     } 
     #header{
       font-family: Arial, Helvetica, sans-serif;
-        background-color: white;
+        background-color:aliceblue;
     }  
     #footer{
-           font-size:30;
-        font-family: Arial, Helvetica, sans-serif;
-        padding: 15px;
-     background-color: #eee;
+           font-size:30px;
+           font-family: Arial, Helvetica, sans-serif;
+           padding: 15px;
+           background-color: #eee;
+           float: auto;
+           clear: both;
     }
     #whatsapp{
         width: 100%;
@@ -66,5 +70,6 @@ body{
     margin:20px auto;
     border-radius: 30px;
     transition: 0.5s;
+    transform: rotate(20);
 	}
    
