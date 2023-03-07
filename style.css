@@ -15,14 +15,14 @@ body{
            font-size:30px;
            font-family: Arial, Helvetica, sans-serif;
            padding: 15px;
-           background-color: #eee;
+           background-color: aliceblue;
            float: auto;
            clear: both;
     }
     #whatsapp{
         width: 100%;
         height: auto;
-        background-color: white;
+        background-color: aliceblue;
     }
     
      #register{
@@ -37,6 +37,7 @@ body{
 
      }
      form{
+       
        background:white;
        display: flex;
        flex-direction:column;
@@ -67,7 +68,7 @@ body{
     border: 150px;
     outline:none;
     cursor: pointer;
-    width:250px;
+    width: 250px;;
     margin:20px auto;
     border-radius: 30px;
     transition: 0.5s;
@@ -88,6 +89,9 @@ body{
     
 
    }
+   form option{
+     border: 10px none;
+   }
    .rad + .rad{
      
    }
@@ -95,7 +99,8 @@ body{
      
 
    }
-   .rad span{display: none;
+   .rad span{
+     display: none;
     height: auto;
      width: auto;
      border-radius: 50%;
@@ -105,6 +110,13 @@ body{
           }
     form input[type=radio]{
       border-top-color: blueviolet;
+      
      
+     }
+     form select{
+       width: 300px;
+       font-size: large;
+       color:rgb(0, 0, 0);
+       border: 1px #00aeef;
      }
  
