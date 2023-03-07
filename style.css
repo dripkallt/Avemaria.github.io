@@ -21,7 +21,7 @@ body{
     }
     #whatsapp{
         width: 100%;
-        height: 19vh;
+        height: auto;
         background-color: white;
     }
     
