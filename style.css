@@ -75,11 +75,13 @@ body{
     transform: rotate(20);
 	}
    #gender{
+     color: #555;
      box-sizing: border-box;
    }
    .rad{
      font-size: 24px;
      font-weight: 800;
+     color: #555;
      text-transform: capitalize;
      display: inline-block;
      vertical-align: middle;
@@ -113,10 +115,27 @@ body{
       
      
      }
-     form select{
+     select{
        width: 300px;
        font-size: large;
        color:rgb(0, 0, 0);
-       border: 1px #00aeef;
+       -webkit-appearance: none;
+       -moz-appearance: none;
+       appearance: none;
+       outline:0;
+       box-shadow: none;
+       border:   #53ceff !important;
+       font-size: 20px;
+       background: #fff;
+       padding: 10px;
+       color: #555;
+     }
+     select::-ms-expand{
+       display: none;
+     }
+     label{
+       font-size: 24px;
+       font-weight: 800;
+       color: #555;
      }
  
